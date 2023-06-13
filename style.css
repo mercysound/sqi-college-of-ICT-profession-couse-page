@@ -1,0 +1,159 @@
+
+/* background image start here */
+body{
+  margin: 0;
+  scroll-behavior: smooth;
+  /* font-family: Arial, , sans-serif; */
+}
+#checkPositions{
+  background:linear-gradient(to bottom, rgb(125, 56, 56, 0.9), rgba(0, 0, 255, 0.7), rgba(29, 19, 19, 0.8), rgba(247, 142, 21, 0.7));
+}
+
+#main-nav{
+  /* width: 100%; */
+  /* height: 70px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #DFA736;
+  box-shadow: 0px 2px 5px black;
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+#main-nav img{
+  width: 5%;
+  margin: 3px 30px;
+}
+#main-nav ul{
+  /* display: inline-block; */
+  /* float: right; */
+  align-items: center;
+  margin-right: 6%;
+  cursor: pointer;
+  font-weight: 500;
+}
+#main-nav ul li{
+  margin: 0 30px;
+  display: inline;
+  color: #2E3683;
+  font-weight: 600;
+}
+
+#main-nav ul li:hover{
+  color: red;
+  /* text-decoration: none; */
+  /* transform: translateY(-10px); */
+  box-shadow: 2px 3px 5px gray;
+}
+
+.tap-button{
+  border-radius: 50px;
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  background-color: #2E3683;
+  border: none;
+  top: 91vh;
+  /* bottom: 2%; */
+  /* left: 45%; */
+  right: 0;
+
+}
+
+.sqi-img{
+  /* height: 70vh; */
+  /* width: 00%; */
+  /* border: 8px solid red; */
+  /* background: linear-gradient(to bottom, rgba(128, 0, 128, 0.6), rgba(0, 0, 255, 0.5)), url("./images/brabus.jpg"); */
+  /* margin: 10px auto; */
+  background: linear-gradient(to bottom, rgb(125, 56, 56, 0.1), rgba(0, 0, 255, 0.2), rgba(29, 19, 19, 0.5), rgba(247, 142, 21, 0.3)), url("./images/off-student 2.jpg");
+  /* background-color: brown; */
+  /* background-position: center; */
+  background-size: 100%;
+  padding: 15% 0 12% 0;
+  /* background-repeat: no-repeat; */
+  /* padding: 35vh 0; */
+  text-align: center;
+}
+.sqi-img .bgIm-adver{
+  font-size: 40pt;
+  /* font-family: Arial, Helvetica, sans-serif;*/
+  font-family: ' Arial, Helvetica, Times New Roman', Times, serif;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 3px 2px 2px  white;
+  text-align: center;
+  /* margin-bottom: 100px; */
+}
+.sqi-img button{
+  padding: 8px 8px;
+  font-weight: 600; 
+  color: blue;
+  /* background-color:  rgb(168, 168, 233); */
+  border-radius: 5px;
+  border: none;
+}
+/* main body section 2 start here */
+.sec2{
+  width: 100%;
+  /* background-color: yellow; */
+  text-align: center;
+  margin-top: 0;
+}
+.sec2 .first-hd{
+  padding-top: -50;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: #00000D;
+}
+
+.sec2 .sec2goal1{
+  /* font-weight: 400; */
+  text-transform: capitalize;
+  background-color: #1A0045;
+  width: 300px;
+  /* justify-content: center; */
+  padding: 20px ;
+  font-size: 12px;
+  /* margin: 0 ; */
+}
+.sec2 .sec2goal2{
+  /* font-weight: 400; */
+  text-transform: capitalize;
+  background-color: #1A0045;
+  width: 300px;
+  /* justify-content: center; */
+  padding: 20px ;
+  font-size: 12px;
+  /* margin: 0 ; */
+}
+.sec2 .sec2goal3{
+  /* font-weight: 400; */
+  text-transform: capitalize;
+  background-color: #D0B900;
+  width: 300px;
+  /* justify-content: center; */
+  padding: 20px ;
+  font-size: 12px;
+  /* margin: 0 ; */
+}
+
+.goals-dv{
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  gap: 30px;
+  color: aliceblue;
+  background-color: #B703;
+
+  /* padding: 0 20%; */
+}
+.sec2{
+  /* padding: 0px 80px; */
+}
